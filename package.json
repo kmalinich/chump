@@ -1,37 +1,37 @@
 {
-  "name": "chump",
-  "version": "1.2.0",
-  "description": "Pushover.net client for Node.js",
-  "keywords": [
-    "pushover",
-    "chump",
-    "client",
-    "api",
-    "apple",
-    "push",
-    "notifications"
-  ],
-  "maintainers": [
-    "Michael Squires <sqmk@php.net>"
-  ],
-  "license": "MIT",
-  "repository": "sqmk/chump",
-  "main": "lib/Chump.js",
-  "files": [
-    "lib"
-  ],
-  "scripts": {
-    "test": "mocha"
-  },
-  "dependencies": {
-    "lodash":  "4.17.4",
-    "request": "2.81.0"
-  },
-  "devDependencies": {
-    "mocha":            "3.4.2",
-    "chai":             "3.5.0",
-    "chai-as-promised": "6.0.0",
-    "sinon":            "2.3.2",
-    "mockery":          "2.0.0"
-  }
+	"dependencies": {
+		"lodash": "4.17.10",
+		"request": "2.88.0"
+	},
+	"description": "Pushover.net client for Node.js",
+	"devDependencies": {
+		"chai": "4.1.2",
+		"chai-as-promised": "7.1.1",
+		"mocha": "5.2.0",
+		"mockery": "2.1.0",
+		"sinon": "6.1.5"
+	},
+	"files": [
+		"lib"
+	],
+	"keywords": [
+		"pushover",
+		"chump",
+		"client",
+		"api",
+		"apple",
+		"push",
+		"notifications"
+	],
+	"license": "MIT",
+	"main": "lib/Chump.js",
+	"maintainers": [
+		"Michael Squires <sqmk@php.net>"
+	],
+	"name": "chump",
+	"repository": "sqmk/chump",
+	"scripts": {
+		"test": "mocha"
+	},
+	"version": "1.2.0"
 }
